@@ -1,0 +1,282 @@
+[2026-02-14 11:44:48] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-02.vmwo2fj.mongodb.net
+[2026-02-14 11:44:48] [32minfo[39m: 
+╔══════════════════════════════════════╗
+║         LinkUp API is running         ║
+║  Port: 5000                           ║
+║  Mode: development                   ║
+╚══════════════════════════════════════╝
+[2026-02-14 11:44:55] [33mwarn[39m: MongoDB disconnected. Reconnecting...
+[2026-02-14 11:45:50] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 11:46:40] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 11:46:53] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 11:47:26] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 11:47:54] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 11:48:39] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 11:51:52] [31merror[39m: MongoDB connection failed: getaddrinfo EAI_AGAIN ac-ihpgx8m-shard-00-01.vmwo2fj.mongodb.net
+[2026-02-14 11:53:00] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-02.vmwo2fj.mongodb.net
+[2026-02-14 11:53:00] [32minfo[39m: 
+╔══════════════════════════════════════╗
+║         LinkUp API is running         ║
+║  Port: 5000                           ║
+║  Mode: development                   ║
+╚══════════════════════════════════════╝
+[2026-02-14 11:57:58] [33mwarn[39m: MongoDB disconnected. Reconnecting...
+[2026-02-14 11:59:14] [31merror[39m: MongoDB connection failed: querySrv ESERVFAIL _mongodb._tcp.cluster0.vmwo2fj.mongodb.net
+[2026-02-14 12:01:41] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-02.vmwo2fj.mongodb.net
+[2026-02-14 12:01:41] [32minfo[39m: 
+╔══════════════════════════════════════╗
+║         LinkUp API is running         ║
+║  Port: 5000                           ║
+║  Mode: development                   ║
+╚══════════════════════════════════════╝
+[2026-02-14 13:34:37] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 13:36:01] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 13:39:05] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 13:40:21] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 13:41:25] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-00.vmwo2fj.mongodb.net
+[2026-02-14 13:41:25] [32minfo[39m: 
+╔══════════════════════════════════════╗
+║         LinkUp API is running         ║
+║  Port: 5000                           ║
+║  Mode: development                   ║
+╚══════════════════════════════════════╝
+[2026-02-14 13:44:33] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:44:54] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 13:48:27] [31merror[39m: Email transporter verification failed: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-43796ac8d46sm13293861f8f.32 - gsmtp
+Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-43796ac8d46sm13293861f8f.32 - gsmtp
+    at SMTPConnection._formatError (/home/mwichabe/linkup3/Linkup_v3/backend/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)
+    at SMTPConnection._actionAUTHComplete (/home/mwichabe/linkup3/Linkup_v3/backend/node_modules/nodemailer/lib/smtp-connection/index.js:1588:34)
+    at SMTPConnection.<anonymous> (/home/mwichabe/linkup3/Linkup_v3/backend/node_modules/nodemailer/lib/smtp-connection/index.js:556:26)
+    at SMTPConnection._processResponse (/home/mwichabe/linkup3/Linkup_v3/backend/node_modules/nodemailer/lib/smtp-connection/index.js:993:20)
+    at SMTPConnection._onData (/home/mwichabe/linkup3/Linkup_v3/backend/node_modules/nodemailer/lib/smtp-connection/index.js:774:14)
+    at SMTPConnection._onSocketData (/home/mwichabe/linkup3/Linkup_v3/backend/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)
+    at TLSSocket.emit (node:events:507:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+[2026-02-14 13:48:30] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:48:38] [31merror[39m: Email transporter verification failed: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-43796abd793sm12071287f8f.25 - gsmtp
+Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-43796abd793sm12071287f8f.25 - gsmtp
+    at SMTPConnection._formatError (/home/mwichabe/linkup3/Linkup_v3/backend/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)
+    at SMTPConnection._actionAUTHComplete (/home/mwichabe/linkup3/Linkup_v3/backend/node_modules/nodemailer/lib/smtp-connection/index.js:1588:34)
+    at SMTPConnection.<anonymous> (/home/mwichabe/linkup3/Linkup_v3/backend/node_modules/nodemailer/lib/smtp-connection/index.js:556:26)
+    at SMTPConnection._processResponse (/home/mwichabe/linkup3/Linkup_v3/backend/node_modules/nodemailer/lib/smtp-connection/index.js:993:20)
+    at SMTPConnection._onData (/home/mwichabe/linkup3/Linkup_v3/backend/node_modules/nodemailer/lib/smtp-connection/index.js:774:14)
+    at SMTPConnection._onSocketData (/home/mwichabe/linkup3/Linkup_v3/backend/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)
+    at TLSSocket.emit (node:events:507:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+[2026-02-14 13:48:42] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:49:00] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:49:00] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:49:04] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 13:49:04] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:49:14] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:49:15] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:49:17] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:49:19] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:50:02] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:50:02] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:50:06] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:50:06] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 13:50:32] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:50:33] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:50:36] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:50:37] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 13:50:37] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:50:41] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 13:51:23] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:51:27] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:51:47] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:51:48] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:51:48] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:51:48] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:51:52] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:51:52] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:51:52] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:51:52] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:53:44] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:53:44] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:53:44] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:53:44] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:53:47] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:53:48] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:53:48] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:53:48] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:54:10] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:54:10] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:54:10] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:54:10] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:54:14] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:54:14] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:54:14] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:54:14] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:55:52] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:55:56] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 13:56:13] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:56:13] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:56:14] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:56:14] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:56:17] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 13:56:18] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 13:56:18] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 13:56:26] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:56:26] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:56:26] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:56:27] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:56:30] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 13:56:47] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-02.vmwo2fj.mongodb.net
+[2026-02-14 13:56:47] [32minfo[39m: 
+╔══════════════════════════════════════╗
+║         LinkUp API is running         ║
+║  Port: 5000                           ║
+║  Mode: development                   ║
+╚══════════════════════════════════════╝
+[2026-02-14 13:56:47] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-02.vmwo2fj.mongodb.net
+[2026-02-14 13:56:47] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-02.vmwo2fj.mongodb.net
+[2026-02-14 13:58:30] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:58:30] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:58:31] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:58:31] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:58:34] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:58:34] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 13:58:35] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:58:35] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 13:58:44] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:58:44] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:58:44] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:58:44] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:58:47] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:58:48] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:58:48] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:58:48] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:58:58] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:59:00] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-00.vmwo2fj.mongodb.net
+[2026-02-14 13:59:00] [32minfo[39m: 
+╔══════════════════════════════════════╗
+║         LinkUp API is running         ║
+║  Port: 5000                           ║
+║  Mode: development                   ║
+╚══════════════════════════════════════╝
+[2026-02-14 13:59:21] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:59:21] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:59:22] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:59:22] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:59:22] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-00.vmwo2fj.mongodb.net
+[2026-02-14 13:59:22] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-00.vmwo2fj.mongodb.net
+[2026-02-14 13:59:22] [32minfo[39m: 
+╔══════════════════════════════════════╗
+║         LinkUp API is running         ║
+║  Port: 5000                           ║
+║  Mode: development                   ║
+╚══════════════════════════════════════╝
+[2026-02-14 13:59:23] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-02.vmwo2fj.mongodb.net
+[2026-02-14 13:59:23] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-02.vmwo2fj.mongodb.net
+[2026-02-14 13:59:40] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:59:40] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:59:40] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:59:41] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 13:59:44] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 13:59:44] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:59:44] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 13:59:45] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 14:00:04] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:00:04] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:00:04] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:00:04] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:00:08] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 14:00:08] [31merror[39m: MongoDB connection failed: Server selection timed out after 5000 ms
+[2026-02-14 14:00:10] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-01.vmwo2fj.mongodb.net
+[2026-02-14 14:00:10] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-01.vmwo2fj.mongodb.net
+[2026-02-14 14:00:10] [32minfo[39m: 
+╔══════════════════════════════════════╗
+║         LinkUp API is running         ║
+║  Port: 5000                           ║
+║  Mode: development                   ║
+╚══════════════════════════════════════╝
+[2026-02-14 14:00:55] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:00:56] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:00:56] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:00:56] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:00:57] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-00.vmwo2fj.mongodb.net
+[2026-02-14 14:00:57] [32minfo[39m: 
+╔══════════════════════════════════════╗
+║         LinkUp API is running         ║
+║  Port: 5000                           ║
+║  Mode: development                   ║
+╚══════════════════════════════════════╝
+[2026-02-14 14:00:58] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-01.vmwo2fj.mongodb.net
+[2026-02-14 14:00:58] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-01.vmwo2fj.mongodb.net
+[2026-02-14 14:00:58] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-01.vmwo2fj.mongodb.net
+[2026-02-14 14:02:34] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:02:35] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-02.vmwo2fj.mongodb.net
+[2026-02-14 14:02:35] [32minfo[39m: 
+╔══════════════════════════════════════╗
+║         LinkUp API is running         ║
+║  Port: 5000                           ║
+║  Mode: development                   ║
+╚══════════════════════════════════════╝
+[2026-02-14 14:10:59] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:10:59] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:10:59] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:10:59] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:11:03] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 14:11:03] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 14:11:16] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:11:17] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:11:17] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:11:18] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:11:22] [31merror[39m: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[2026-02-14 14:11:28] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:11:28] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:11:28] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:11:28] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:11:36] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:11:36] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:11:37] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:11:37] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:11:51] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-01.vmwo2fj.mongodb.net
+[2026-02-14 14:11:51] [32minfo[39m: 
+╔══════════════════════════════════════╗
+║         LinkUp API is running         ║
+║  Port: 5000                           ║
+║  Mode: development                   ║
+╚══════════════════════════════════════╝
+[2026-02-14 14:11:52] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-02.vmwo2fj.mongodb.net
+[2026-02-14 14:11:52] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-00.vmwo2fj.mongodb.net
+[2026-02-14 14:11:52] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-00.vmwo2fj.mongodb.net
+[2026-02-14 14:13:17] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:13:17] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:13:18] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:13:18] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 14:13:18] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-01.vmwo2fj.mongodb.net
+[2026-02-14 14:13:18] [32minfo[39m: 
+╔══════════════════════════════════════╗
+║         LinkUp API is running         ║
+║  Port: 5000                           ║
+║  Mode: development                   ║
+╚══════════════════════════════════════╝
+[2026-02-14 14:13:19] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-01.vmwo2fj.mongodb.net
+[2026-02-14 14:13:19] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-01.vmwo2fj.mongodb.net
+[2026-02-14 14:13:19] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-00.vmwo2fj.mongodb.net
+[2026-02-14 20:04:46] [33mwarn[39m: Email transporter verification failed (this is expected in development):
+[2026-02-14 20:04:49] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-01.vmwo2fj.mongodb.net
+[2026-02-14 20:04:49] [32minfo[39m: 
+╔══════════════════════════════════════╗
+║         LinkUp API is running         ║
+║  Port: 5000                           ║
+║  Mode: development                   ║
+╚══════════════════════════════════════╝
+[2026-02-16 14:54:12] [32minfo[39m: Email transporter is ready
+[2026-02-16 14:54:13] [32minfo[39m: ✅ MongoDB connected: ac-ihpgx8m-shard-00-02.vmwo2fj.mongodb.net
+[2026-02-16 14:54:13] [32minfo[39m: 
+╔══════════════════════════════════════╗
+║         LinkUp API is running         ║
+║  Port: 5000                           ║
+║  Mode: development                   ║
+╚══════════════════════════════════════╝
