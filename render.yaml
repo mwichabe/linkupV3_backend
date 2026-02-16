@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: linkup-backend
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        fromSecret: port # Render will provide this automatically
+    # Additional environment variables should be set in Render dashboard:
+    # - MONGO_URI
+    # - JWT_SECRET
+    # - JWT_REFRESH_SECRET
+    # - CLOUDINARY_CLOUD_NAME
+    # - CLOUDINARY_API_KEY
+    # - CLOUDINARY_API_SECRET
+    # - OPENAI_API_KEY
+    # - REDIS_URL
+    # - FIREBASE_PROJECT_ID
+    # - FIREBASE_PRIVATE_KEY
+    # - FIREBASE_CLIENT_EMAIL
+    # - SMTP_HOST
+    # - SMTP_PORT
+    # - SMTP_USER
+    # - SMTP_PASS
+    # - FROM_EMAIL
+    # - FROM_NAME
+    # - CLIENT_URL
+    # - RATE_LIMIT_WINDOW_MS
+    # - RATE_LIMIT_MAX
